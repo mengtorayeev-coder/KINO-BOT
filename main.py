@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 TOKEN = "8799433110:AAFEiF8J8sxkghnafFTsBZZiLjsmHvWNKYs"
-KANAL = "@https://t.me/kinolaruztvv"
+KANAL = "@kinolaruztvv"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
