@@ -1,1 +1,8 @@
-
+def check_sub(bot, user_id):
+    try:
+        member = bot.get_chat_member("@kanal_nomi", user_id)
+        if member.status in ["member", "administrator", "creator"]:
+            return True
+        return False
+    except:
+        return False
